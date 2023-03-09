@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Beyond unreal wiki normalizer",
+  "version": "1.0",
+  "description": "This simple Chrome extension which fix wiki.beyondunreal.com",
+  "content_scripts": [
+    {
+      "css": ["normalizer.css"],
+      "matches": [
+        "https://wiki.beyondunreal.com/*"
+      ]
+    }
+  ]
+}
